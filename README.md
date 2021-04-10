@@ -1,9 +1,10 @@
-# Pyber Analysis
+# PyBer Analysis
 
 ## Overview
 The purpose of this challenge was to provide an analysis of Pyber fares for different city types (urban, suburban, and rural). The analysis provides a summary DataFrame displaying the totals (drivers, rides, and fares) and averages (fare per ride and fare per driver). Lastly, a line plot shows the changes in fares over time for each city type.
 
 ## Results
+![DataFrame Summary](Resources/Pyber_Summary_Table.png)
 ### Total Rides
 The summary table shows that Urban cities have the most rides (1,625) followed by Suburban (625) and Rural (125).
 
@@ -20,6 +21,8 @@ The summary table shows that the average fare per ride is the highest in Rural c
 The summary table shows that the average fare per ride is the highest in Rural cities at $55.49. The average fare per ride is decreases in Suburban cities, $39.50, and is lowest in Urban cities at $16.57.
 
 ### Total Fares Over Time
+![Total Fares Over Time](analysis/PyBer_fare_summary.png)
+
 The **Total Fares Over Time** graph reinforces the findings above. Urban cities consistently have the most fares per week followed by Suburban and in last Rural cities. The longitudinal data does not show any specific trends with dates except for a consistent spike in late February.
 
 ## Summary
